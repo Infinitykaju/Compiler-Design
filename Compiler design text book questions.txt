@@ -1,0 +1,42 @@
+Compiler design text book questions 
+
+
+Exercise 1.1.1:
+The main difference between a compiler and an interpreter lies in how they process high-level programming languages.
+
+    Compiler: A compiler translates the entire source code of a high-level programming language into machine code or an intermediate code before the program is executed. The resulting machine code or intermediate code can be executed multiple times without re-translation.
+
+    Interpreter: An interpreter, on the other hand, translates and executes the source code line by line during runtime. It does not produce a separate executable file; instead, it interprets and executes the code directly.
+
+Exercise 1.1.2:
+(a) Advantages of a compiler over an interpreter:
+
+    Performance: Compiled code generally executes faster than interpreted code because it is translated into machine code or a lower-level intermediate code in advance.
+    Portability: Once compiled, the executable code can be run on any machine that supports the compiled target platform without requiring the source code.
+
+(b) Advantages of an interpreter over a compiler:
+
+    Ease of Debugging: Interpreters often provide better error diagnostics and debugging capabilities as they can execute code line by line, making it easier to identify and fix issues.
+    Platform Independence: Since interpreters work with the source code directly, the same code can run on different platforms without the need for recompilation.
+
+Exercise 1.1.3:
+The advantages of a language-processing system where the compiler produces assembly language instead of machine language include:
+
+    Portability: Assembly language is typically more portable than machine code, making it easier to move programs between different computer architectures.
+    Human Readability: Assembly language is more human-readable than machine code, facilitating manual inspection and debugging.
+
+Exercise 1.1.4:
+Using C as a target language for a source-to-source translator (compiler translating high-level language to another high-level language) offers advantages such as:
+
+    Widespread Usage: C is a widely used and well-established programming language, ensuring that the generated code can run on various platforms with C compilers.
+    Optimization Opportunities: The C language allows for low-level control and optimization, making it suitable for producing efficient code from high-level languages.
+
+Exercise 1.1.5:
+Tasks performed by an assembler include:
+
+    Symbol Resolution: Assigning memory addresses to symbolic labels used in the assembly code.
+    Code Generation: Producing machine code or an intermediate representation from the assembly language instructions.
+    Relocation: Adjusting memory addresses in the code to reflect the actual location where the program will be loaded.
+    Error Handling: Detecting and reporting errors in the assembly code.
+    Macro Processing: Expanding and processing macros defined in the assembly code.
+    Output Generation: Producing the final executable or object code file.
